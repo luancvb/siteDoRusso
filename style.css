@@ -1,0 +1,268 @@
+.montserrat-uniquifier {
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+    font-weight: 600px;
+    font-style: normal;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-size: 22px;
+}
+
+body {
+    align-items: center;
+    position: absolute;
+    font-family: "Montserrat", serif;
+}
+
+.divCabecalho {
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    justify-items: center;
+}
+
+.logoRusso {
+    width: 20%;
+    margin-top: 5px;
+}
+
+/* DIV MENU */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fcb900;
+    padding: 1%;
+    height: 10%;
+}
+
+.menu ul {
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    margin: 0 15px;
+}
+
+.menu a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.menu .social-icons {
+    display: flex;
+
+}
+
+.menu .social-icons img {
+    width: 100%;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 10%;
+}
+
+.menu .toggle {
+    display: none;
+    cursor: pointer;
+}
+
+.toggle {
+    width: 40px;
+    height: 10px;
+    margin-top: -28px;
+    margin-left: 14px;
+}
+
+.menu .toggle span {
+    display: block;
+    width: 90%;
+    height: 60%;
+    background-color: white;
+    margin: 5px;
+}
+
+.menu ul {
+    text-align: center;
+
+}
+
+/* DIV DO WHATSAPP */
+.divReclameAqui {
+    position: relative;
+    display: flex;
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+
+}
+
+.divReclameAqui a {
+    width: 33%;
+    text-align: center;
+    justify-items: center;
+    align-content: center;
+    text-decoration: none;
+}
+
+.divReclameAqui h1 {
+    font-size: 100%;
+    color: black;
+    margin-left: -15%;
+
+}
+
+.imgReclameAqui {
+    width: 70%;
+    margin-left: -30%;
+}
+
+.imgReclameAquiResolucao {
+    display: none;
+}
+
+
+.fotoRusso {
+    width: 100%;
+}
+
+.logoWhats {
+    justify-items: center;
+    align-content: center;
+    width: 30%;
+    margin-left: 15%;
+    margin-top: 30%;
+}
+
+/* CONTEUDO */
+
+#sobreMim {
+    width: 50%;
+    text-align: center;
+    margin-left: 2%;
+}
+
+#sobreMim h1 {
+    color: #ffbe00;
+    width: 50%;
+    margin: auto;
+    font-size: 100%;
+}
+
+/* BOTÕES LER MAIS */
+
+.botao {
+    background-color: #ffbe00;
+    color: white;
+    font-size: 80%;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 3px;
+    margin: 40px 0;
+}
+
+@media (max-width: 1042px) {
+    .logoRusso {
+        width: 50%;
+    }
+
+    .menu ul {
+        display: none;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+    }
+
+    .menu .social-icons img {
+        width: 100%;
+        height: 40px;
+        border-radius: 50%;
+        margin-left: -60%;
+    }
+
+    .menu .toggle {
+        display: block;
+    }
+
+    /* DIV RECLAME AQUI */
+
+    .divReclameAqui {
+        flex-direction: column;
+        display: flex;
+        width: 95%;
+        height: auto;
+        margin-top: 5px;
+
+    }
+
+    .divReclameAqui a {
+        width: 100%;
+        text-align: center;
+        justify-items: center;
+        align-content: center;
+        text-decoration: none;
+    }
+
+    .divReclameAqui h1 {
+        font-size: 100%;
+        color: black;
+        margin: 7% 0 0 3%;
+
+    }
+
+    .imgReclameAqui {
+        display: none;
+    }
+
+    .imgReclameAquiResolucao {
+        display: inline;
+        margin: 0 0 0 10%;
+        width: 25%;
+    }
+
+    .fotoRusso {
+        width: 75%;
+        margin: 10% 0 0 15%;
+
+    }
+
+    .logoWhats {
+        justify-items: center;
+        align-content: center;
+        width: 15%;
+        margin-left: -3%;
+        margin-top: 3%;
+    }
+
+    /* CONTEUDO */
+
+    #sobreMim {
+        width: 90%;
+        margin: 40px 0;
+        padding: 20px;
+        text-align: left;
+    }
+
+    #sobreMim h1 {
+        font-size: 110%;
+        margin: 20px 0 25px 5%;
+    }
+
+    #sobreMim p {
+        text-align: left;
+        margin: 20px 12px;
+        font-size: 15px;
+    }
+
+
+    .botao {
+        margin: 0 0 0 5%;
+    }
+}
