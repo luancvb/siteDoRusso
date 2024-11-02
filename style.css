@@ -57,6 +57,8 @@ body {
     margin-left: 20px;
 }
 
+
+
 .menu .social-icons {
     display: flex;
 
@@ -93,6 +95,7 @@ body {
     text-align: center;
 
 }
+
 
 /* DIV DO WHATSAPP */
 .divReclameAqui {
@@ -156,6 +159,10 @@ body {
     font-size: 100%;
 }
 
+#sobreMim p {
+    text-align: left;
+}
+
 /* BOTÕES LER MAIS */
 
 .botao {
@@ -166,6 +173,10 @@ body {
     border: none;
     border-radius: 3px;
     margin: 40px 0;
+}
+
+#fotoCelular {
+    display: none;
 }
 
 @media (max-width: 1042px) {
@@ -225,12 +236,11 @@ body {
         display: inline;
         margin: 0 0 0 10%;
         width: 25%;
+        display: none;
     }
 
     .fotoRusso {
-        width: 75%;
-        margin: 10% 0 0 15%;
-
+        display: none;
     }
 
     .logoWhats {
@@ -264,5 +274,11 @@ body {
 
     .botao {
         margin: 0 0 0 5%;
+    }
+
+    #fotoCelular {
+        display: flex;
+        width: 75%;
+        margin: 10% 0 0 15%;
     }
 }
