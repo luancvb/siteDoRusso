@@ -175,7 +175,7 @@ body {
     margin: 40px 0;
 }
 
-#fotoCelular {
+.fotoCelularA {
     display: none;
 }
 
@@ -278,6 +278,10 @@ body {
     #fotoCelular {
         display: flex;
         width: 75%;
-        margin: 10% 0 0 15%;
+        margin: 10% 0 0 10%;
+    }
+
+    .fotoCelularA {
+        display: flex;
     }
 }
