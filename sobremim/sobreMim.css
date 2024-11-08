@@ -18,7 +18,7 @@ h1 {
 }
 
 /* RESOLUÇÃO PARA CELULAR */
-@media (max-width: 1042px) {
+@media (max-width: 993px) {
     .divConteudoSobreMim {
         display: block;
         text-align: center;

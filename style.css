@@ -211,7 +211,7 @@ body {
 }
 
 /* RESOLUÇÃO PARA CELULAR */
-@media (max-width: 1042px) {
+@media (max-width: 993px) {
     .logoRusso {
         width: 50%;
         margin: 3% 0 3% 0;
