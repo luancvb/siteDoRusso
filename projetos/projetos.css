@@ -1,0 +1,69 @@
+.divConteudo {
+    display: flex;
+}
+
+.divConteudo section {
+    width: 40%;
+    text-align: justify;
+    margin: 7% 10% 0 2%;
+    padding-bottom: 5%;
+}
+
+.divConteudo section h1 {
+    background-color: rgb(255, 243, 75);
+    padding: 2% 0 2% 0;
+    margin: 0 0 10% 0;
+    text-align: center;
+
+}
+
+.divConteudo section button {
+    width: 90%;
+    border: none;
+    border-radius: 30px;
+    background-color: rgb(255, 243, 75);
+    padding: 2%;
+    /* margin: 5% 5% 0 20%; */
+}
+
+.projeto1Button1 {
+    margin: 10% 5% 0 5%;
+}
+
+.projeto1Button2 {
+    margin: 5% 5% 0 5%;
+}
+
+.videoProjeto1 {
+    width: 60%;
+    margin: 3% 10% 0 25%;
+
+}
+
+
+
+@media (max-width: 1042px) {
+    .divConteudo {
+        display: block;
+    }
+
+    .videoProjeto1 {
+        width: 90%;
+        margin: 3% 0 2% 5%;
+
+    }
+
+    .divConteudo section {
+        width: 90%;
+        text-align: justify;
+        margin: 3% 10% 0 5%;
+    }
+
+    .divConteudo section h1 {
+        margin: 0 0 4% 0;
+        text-align: center;
+
+    }
+
+
+}

@@ -5,6 +5,37 @@
     font-style: normal;
 }
 
+@keyframes animacaoFotoRusso {
+    from {
+        margin-left: -300%;
+    }
+
+    to {
+        margin-right: 0%;
+    }
+
+}
+
+@keyframes animacaoLogoWhatsapp {
+    from {
+        margin-left: 150%;
+    }
+
+    to {
+        margin-left: 0;
+    }
+}
+
+@keyframes animacaoTexto {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
 * {
     margin: 0;
     padding: 0;
@@ -57,6 +88,7 @@ body {
     margin-left: 20px;
 }
 
+
 .menu .social-icons {
     display: flex;
 
@@ -67,6 +99,7 @@ body {
     height: 40px;
     border-radius: 50%;
     margin-left: 10%;
+
 }
 
 .menu .toggle {
@@ -117,6 +150,8 @@ body {
     font-size: 120%;
     color: black;
     margin-left: 10%;
+    animation-name: animacaoTexto;
+    animation-duration: 8s;
 }
 
 .imgReclameAqui {
@@ -129,14 +164,17 @@ body {
 }
 
 
+
 .fotoRusso {
     width: 100%;
+    animation-name: animacaoFotoRusso;
+    animation-duration: 4s;
 }
 
 .logoWhats {
     width: 30%;
-    /* margin-left: -30%;
-    margin-top: -100%; */
+    animation-name: animacaoLogoWhatsapp;
+    animation-duration: 4s;
 }
 
 /* CONTEUDO */
@@ -247,6 +285,8 @@ body {
         font-size: 100%;
         color: black;
         margin: 7% 8% 0 8%;
+        animation-name: animacaoTexto;
+        animation-duration: 5s;
 
 
     }
